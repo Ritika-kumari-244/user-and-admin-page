@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- USERS PAGE STARTS -->
+
+    <div class="form1">
+        <h1>LOGIN HERE</h1>
+        <p>Users Email Id</p>
+        <input type="email" placeholder="Enter Your Email " oninvalid="alert('please enter the correct email')">
+        <p>Password</p>
+        <input type="password" placeholder="Enter Your Password" id="pswd">
+        <input type="checkbox" name="" onclick="myfunction()" id="">
+        <input type="submit" value="LOGIN" onclick="validate()">
+    </div>
+    <div>
+        <p id="length"></p>
+    </div>
+
+    <!-- USERS PAGE END -->
+
+
+    <!-- ADMIN PAGE STARTS -->
+
+    <div class="form2">
+        <h1>LOGIN HERE</h1>
+        <p>Admin Email Id</p>
+        <input type="email" placeholder="Enter Your Email " oninvalid="alert('please enter the correct email')">
+        <p>Password</p>
+        <input type="password" placeholder="Enter Your Password" id="passw">
+        <input type="checkbox" name="" onclick="myFunction()" id="">
+        <input type="submit" value="LOGIN" onclick="validate()">
+    </div>
+    <div>
+        <p id="lengths"></p>
+    </div>
+
+    <!-- ADMIN PAGE END -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
